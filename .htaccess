@@ -1,0 +1,2 @@
+### re-direct index.html to root / ###RewriteCond %{THE REQUEST} ^.*/index.html HTTPS/
+RewriteRule ^(.*)index.html$ /$1 [R=301,L]
